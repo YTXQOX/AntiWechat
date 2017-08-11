@@ -16,6 +16,10 @@ public class XNotificationActivity extends AppCompatActivity {
     private final String TAG = "XNotificationActivity";
 
 
+    public XNotificationActivity() {
+
+    }
+
     public XNotificationActivity(Context context) {
         mContext = context;
         manager = (NotificationManager) mContext.getSystemService(Context.NOTIFICATION_SERVICE);

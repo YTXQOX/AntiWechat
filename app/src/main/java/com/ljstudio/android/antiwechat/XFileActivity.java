@@ -31,7 +31,11 @@ public class XFileActivity extends AppCompatActivity {
     private Context mContext;
 
 
-    XFileActivity(Context context) {
+    public XFileActivity() {
+
+    }
+
+    public XFileActivity(Context context) {
         this.mContext = context;
     }
 
